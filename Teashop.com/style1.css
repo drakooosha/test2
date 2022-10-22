@@ -1,0 +1,258 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        line-height: 1.875;
+        font-weight: 400;
+}
+.box{
+    max-width: 1260px;
+    width: 100%;
+     margin: auto;
+ }
+ .title{
+  font-weight: 600;
+  font-size: 26px;
+  color: #000000;
+  margin-bottom: 25px;
+  line-height: 1.2;
+ }
+.header{
+    background-color:#FFFFFF;
+    line-height: 1.2;
+    box-shadow: 0px 3px 84px rgba(0, 0, 0, 0.07);
+    margin-bottom: 32px;
+}
+.header__iner{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 29.98px 0;
+}
+.nav{
+  display: flex;
+}
+.logo{
+    align-items: center;
+    display: flex;
+    color: black;
+    margin-right: 34px;
+    }
+    .logo__img{
+      margin-right: 12px;
+    }
+    .logo__text{
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 20px;
+    }
+    .menu__catalog{
+      display: flex;
+      
+    }
+    .burger__inner{
+      display: flex;
+      align-items: center;
+    }
+    .burger{
+      width: 22px;
+      height: 14px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-right: 14px;
+    }
+    .burger__span{
+      background-color: #B798FF;
+      height: 1px;
+    }
+    .burger::before,
+    .burger::after{
+      content: "";
+      height: 1px;
+      background-color: #B798FF;
+    }
+.nav__items{
+ display:none;
+ }
+     .header__info{
+      display: flex;
+     }
+     .header__link{
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 16px;
+      line-height:19.5px;
+      margin-right: 29px;
+      color: black;
+     }
+     .header__time{
+      font-size: 16px;
+      line-height:19.5px;
+      margin-right: 65px;
+      color: #8B8B8B;
+     }
+     .header__text{
+      font-size: 16px;
+      line-height:19.5px;
+     }
+     .header__stuff{
+      display: flex;
+      align-items: flex-start;
+      align-self: flex-end;
+     }
+     .header_search{
+      font-size: 16px;
+      color: #8B8B8B;
+      border: none;
+      border-bottom: solid #8B8B8B 1px;
+      max-width: 175px;
+      width: 100%;
+     margin-right: 67px;
+      padding-bottom: 10px;
+      outline: transparent;
+     }
+     .header__amount{
+      font-size: 16px;
+      padding-left: 25px;
+      background-image:url(png/Shopping\ cart.png);
+      background-repeat: no-repeat;
+      background-position: left center;
+   }
+   .delivery{
+    margin-bottom: 50px;
+   }
+   .delivery__departments{
+    display: flex;
+    flex-wrap: wrap;
+    gap:36px 40px;
+   }
+   .delivery__department{
+    max-width: 610px;
+    width: 100%;
+    color: #000000;
+   }
+   .department__img{
+    margin-bottom: 14px;
+   }
+   .table__of--contens{
+    line-height: 1.2;
+    font-weight: 600;
+    margin-bottom: 5px;
+   }
+   .e-mail{
+    display: flex;
+    padding-left: 134px;
+    padding-right: 192px;
+   }
+   .visp{
+    background-image: url(png/cup.png);
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 70px 0px;
+    margin-bottom: 48px;
+   }
+   .know{
+    font-weight: 900;
+    font-size: 30px;
+    color: #FFFFFF;
+    margin-right: 31px;
+   }
+   input[type="email"]{
+    border: none;
+    margin-right: 20px;
+    padding: 10px 0 10px 24px;
+    width: 100%;
+    max-width: 250px;
+   }
+   .form{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 427px;
+   }
+   input[type="email"]::placeholder{
+    color: #A8A8A8;
+    background-color: #FFFFFF;
+   }
+   .subscribe{
+    border: none;
+    background-color: #B798FF;
+    color: #FFFFFF;
+    font-weight: 600;
+    padding: 10px 24px ;
+   }
+   .pay{
+    margin-bottom: 59px;
+   }
+   .payment__methods{
+    display: flex;
+    column-gap: 40px;
+   }
+   .payment__method{
+    width: 393px;
+    max-width: 100%;
+    background-color:#FFFFFF;
+    box-shadow: 0px 3px 84px rgba(0, 0, 0, 0.07);
+   }
+   .pay__img{
+    margin-bottom: 38px;
+   }
+   .pay__information{
+    width: 309px;
+    max-width: 100%;
+    margin: auto;
+   }
+   .forms--for__pay{
+    font-weight: 600;
+    color:#000000;
+    margin-bottom: 12px;
+   }
+   .footer{
+    background-color: #F0F0F0;
+   }
+   .footer__iner{
+    display: flex;
+    align-items: center;
+    padding: 46px 0;
+   }
+   .address{
+    width: 100%;
+    max-width: 242px;
+    margin-right: 77px;
+    padding-bottom: 30px;
+   }
+   .violet:link{
+    color: #927BC9;
+   }
+   .violet:visited{
+    color: #927BC9;
+   }
+   .shopsite__contacts{
+    margin-right: 73px;
+    width: 100%;
+    max-width: 176px;
+   }
+   .teashop__information{
+    color: #A8A8A8;
+    width: 100%;
+    max-width: 624px;
+    margin-right: 45px;
+   }
+   .shop__soc{
+    width: 100%;
+    max-width: 22px;
+   }
+   .soc__img{
+    margin: auto;
+   }
+   .one{
+    margin-bottom: 6.85px;
+   }
+   .two{
+    margin-bottom: 7.85px;
+   }
+   .pay__txt{
+    padding-bottom: 36px;
+   }
